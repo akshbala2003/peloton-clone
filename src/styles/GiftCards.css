@@ -1,0 +1,78 @@
+.gift-cards-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .gift-card-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 40px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  
+  .gift-card-content {
+    max-width: 50%;
+  }
+  
+  .explore-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  .explore-button:hover {
+    background-color: #333;
+  }
+  
+  .small-text {
+    font-size: 12px;
+    margin-top: 10px;
+  }
+  
+  .small-text a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  .gift-card-image img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .peloton-instructor-section {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    color: white; 
+  }
+  
+  .peloton-instructor-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  .take-quiz-button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .take-quiz-button:hover {
+    background-color: #333;
+  }
+  

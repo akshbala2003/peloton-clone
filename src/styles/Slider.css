@@ -1,0 +1,50 @@
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.slider-container {
+  margin: 20px;
+}
+
+.slick-prev:before, .slick-next:before {
+  color: black;
+}
+
+.slide-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slide-item img {
+  width: 300px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+.slide-item h3 {
+  font-size: 20px;
+  margin: 10px 0 5px;
+}
+
+.slide-item a {
+  color: gray;
+  text-decoration: none;
+}
+
+.slide-item a:hover {
+  text-decoration: underline;
+}
+
+.browse-button {
+  margin: 20px auto;
+  display: block;
+  padding: 10px 20px;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.browse-button:hover {
+  background-color: #f0f0f0;
+}

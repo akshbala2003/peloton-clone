@@ -1,0 +1,50 @@
+
+.peloton-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+
+  .peloton-image-section {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .peloton-info-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  
+  .peloton-text-section {
+    font-family: 'Arial', sans-serif;
+    font-size: 14px;
+    color: #333;
+    line-height: 1.6;
+    max-width: 1000px;
+  }
+  
+  .peloton-text-section p {
+    margin-bottom: 15px;
+  }
+  
+  .peloton-text-section a {
+    color: #0056b3;
+    text-decoration: none;
+  }
+  
+  .peloton-text-section a:hover {
+    text-decoration: underline;
+  }
+  
+  sup {
+    font-size: 10px;
+    vertical-align: super;
+  }
+  
