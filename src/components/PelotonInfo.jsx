@@ -6,11 +6,7 @@ const PelotonInfo = () => {
     <div className="peloton-info-container">
      
       <div className="peloton-image-section">
-        <img 
-          src=''
-          alt="Peloton Information" 
-          className="peloton-info-image" 
-        />
+       
       </div>
 
     

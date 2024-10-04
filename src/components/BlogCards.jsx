@@ -18,8 +18,9 @@ const BlogCards = () => {
           </div>
           <div className="card-content">
             <h4>The starting line</h4>
-            <p>How to get back into working out</p>
             <div className="underline"></div>
+            <p>How to get back into working out</p>
+           
           </div>
         </div>
 
@@ -33,8 +34,9 @@ const BlogCards = () => {
           </div>
           <div className="card-content">
             <h4>The long game</h4>
-            <p>12 tips to build a fitness routine that sticks</p>
             <div className="underline"></div>
+            <p>12 tips to build a fitness routine that sticks</p>
+           
           </div>
         </div>
 

@@ -71,11 +71,30 @@ const Footer = () => {
             <a href="#">Privacy Policy</a> to provide more information on how we
             collect and use your personal information.
           </p>
-          <ul className="contact-info">
-            <li><svg height="16" viewBox="0 0 24 24" fill="none" aria-labelledby="n3q2khhvhn4bsr7eulpv9o5g" class="AsyncIcon__StyledIcon-design-system__sc-9oyiwf-0 bvUoNw" focusable="false" preserveAspectRatio="xMidYMid meet" width="18"><title id="n3q2khhvhn4bsr7eulpv9o5g">Phone</title><path fill-rule="evenodd" clip-rule="evenodd" d="M17.6 14.4C16 16 16 17.6 14.4 17.6s-3.2-1.6-4.8-3.2C8 12.8 6.4 11.2 6.4 9.6 6.4 8 8 8 9.6 6.4S6.4 0 4.8 0C3.2 0 0 4.8 0 4.8 0 8 3.288 14.488 6.4 17.6 9.512 20.712 16 24 19.2 24c0 0 4.8-3.2 4.8-4.8 0-1.6-4.8-6.4-6.4-4.8Z" fill="#000000"></path></svg><a href="tel:1-866-679-9129">1-866-679-9129</a></li>
-            <li><svg height="16" viewBox="0 0 24 24" fill="none" aria-labelledby="g6vj8hlfghnr5hzuo5q7xjs4" class="AsyncIcon__StyledIcon-design-system__sc-9oyiwf-0 bvUoNw" focusable="false" preserveAspectRatio="xMidYMid meet" width="18"><title id="g6vj8hlfghnr5hzuo5q7xjs4">Chat</title><path fill-rule="evenodd" clip-rule="evenodd" d="M12 1c6.625 0 12 4.322 12 9.646 0 5.325-5.375 9.647-12 9.647-.635 0-1.26-.04-1.87-.12-2.58 2.554-5.555 3.011-8.53 3.08v-.625c1.605-.78 2.9-2.196 2.9-3.82 0-.229-.02-.447-.05-.666C1.735 16.374 0 13.672 0 10.647 0 5.321 5.375 1 12 1Z" fill="#000000"></path></svg><a href="#">Start a live chat</a></li>
-            <li><svg height="16" viewBox="0 0 24 24" fill="none" aria-labelledby="oxhild1w8s1mgq2csaqwe2p1" class="AsyncIcon__StyledIcon-design-system__sc-9oyiwf-0 bvUoNw" focusable="false" preserveAspectRatio="xMidYMid meet" width="18"><title id="oxhild1w8s1mgq2csaqwe2p1">Help</title><path fill-rule="evenodd" clip-rule="evenodd" d="M24 12c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0s12 5.373 12 12Zm-12.71 1.59H12.8c.243 0 .374-.169.374-.393v-.616c0-.462.484-.846 1.053-1.295.807-.639 1.784-1.411 1.784-2.737 0-1.829-1.661-3.136-3.621-3.136-2.39 0-3.659 1.643-3.659 1.643-.13.13-.15.355 0 .485l.877.859c.131.112.262.112.411.019.084-.055.174-.134.277-.223.355-.31.856-.748 1.739-.748.933 0 1.493.579 1.493 1.25 0 .604-.553 1.072-1.149 1.576-.694.587-1.445 1.223-1.445 2.177v.784c0 .205.168.354.354.354Zm.746 5.263c-.84 0-1.53-.69-1.53-1.53 0-.84.69-1.55 1.53-1.55.84 0 1.55.71 1.55 1.55 0 .84-.71 1.53-1.55 1.53Z" fill="#000000"></path></svg><a href="#">Visit support center</a></li>
-          </ul>
+          <ul class="contact-info justify-center ">
+  <li class="flex items-center space-x-2">
+    <svg height="16" viewBox="0 0 24 24" fill="none" class="w-4 h-4" focusable="false" preserveAspectRatio="xMidYMid meet">
+      <title>Phone</title>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M17.6 14.4C16 16 16 17.6 14.4 17.6s-3.2-1.6-4.8-3.2C8 12.8 6.4 11.2 6.4 9.6 6.4 8 8 8 9.6 6.4S6.4 0 4.8 0C3.2 0 0 4.8 0 4.8 0 8 3.288 14.488 6.4 17.6 9.512 20.712 16 24 19.2 24c0 0 4.8-3.2 4.8-4.8 0-1.6-4.8-6.4-6.4-4.8Z" fill="#000000"></path>
+    </svg>
+    <a href="tel:1-866-679-9129" class="text-black hover:underline">1-866-679-9129</a>
+  </li>
+  <li class="flex items-center space-x-2">
+    <svg height="16" viewBox="0 0 24 24" fill="none" class="w-4 h-4" focusable="false" preserveAspectRatio="xMidYMid meet">
+      <title>Chat</title>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M12 1c6.625 0 12 4.322 12 9.646 0 5.325-5.375 9.647-12 9.647-.635 0-1.26-.04-1.87-.12-2.58 2.554-5.555 3.011-8.53 3.08v-.625c1.605-.78 2.9-2.196 2.9-3.82 0-.229-.02-.447-.05-.666C1.735 16.374 0 13.672 0 10.647 0 5.321 5.375 1 12 1Z" fill="#000000"></path>
+    </svg>
+    <a href="#" class="text-black hover:underline">Start a live chat</a>
+  </li>
+  <li class="flex items-center space-x-2">
+    <svg height="16" viewBox="0 0 24 24" fill="none" class="w-4 h-4" focusable="false" preserveAspectRatio="xMidYMid meet">
+      <title>Help</title>
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M24 12c0 6.627-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0s12 5.373 12 12Zm-12.71 1.59H12.8c.243 0 .374-.169.374-.393v-.616c0-.462.484-.846 1.053-1.295.807-.639 1.784-1.411 1.784-2.737 0-1.829-1.661-3.136-3.621-3.136-2.39 0-3.659 1.643-3.659 1.643-.13.13-.15.355 0 .485l.877.859c.131.112.262.112.411.019.084-.055.174-.134.277-.223.355-.31.856-.748 1.739-.748.933 0 1.493.579 1.493 1.25 0 .604-.553 1.072-1.149 1.576-.694.587-1.445 1.223-1.445 2.177v.784c0 .205.168.354.354.354Zm.746 5.263c-.84 0-1.53-.69-1.53-1.53 0-.84.69-1.55 1.53-1.55.84 0 1.55.71 1.55 1.55 0 .84-.71 1.53-1.55 1.53Z" fill="#000000"></path>
+    </svg>
+    <a href="#" class="text-black hover:underline">Visit support center</a>
+  </li>
+</ul>
+
         </div>
       </div>
 

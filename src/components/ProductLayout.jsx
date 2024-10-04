@@ -74,13 +74,16 @@ const products = [
   },
   {
     id: 8,
-    title: "Apparel",
-    description: "Now’s the time to build a new look.",
-    price: "Shop new arrivals",
+    
+    title: "Peloton Bike+",
+    description: "Our most advanced Bike with a larger rotating screen, auto-resistance, and more.",
+    price: "$2,495",
     imageSrc: 'https://res.cloudinary.com/peloton-cycle/image/fetch/dpr_1.0,f_auto,q_auto:good,w_600/https://images.ctfassets.net/7vk8puwnesgc/2xFoYqdTtXYummJv9dJz8d/4b54cd1dd153d4bfbed01ff5fe8cbe4d/Product_Images_Cards.png', 
     exploreLink: "#",
     shopLink: "#",
-    note: ""
+    note: "$44/mo Peloton All-Access Membership required to access full content on the Peloton Bike+."
+
+
   }
 ];
 
