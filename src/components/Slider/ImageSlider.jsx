@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import "../styles/Slider.css";
+import "./Slider.css";
 const images = [
   {
     src: "https://res.cloudinary.com/peloton-cycle/image/fetch/dpr_1.0,f_auto,q_auto:good,w_600/https://images.ctfassets.net/7vk8puwnesgc/3Tygq87mpjCysd6dRomamP/d8a7b4f46a0c45eb3ff95a1a2e186d84/strength.png",
@@ -35,7 +35,7 @@ const ImageSlider = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    variableWidth: true, // Enables fixed width for each slide
+    variableWidth: true, 
     responsive: [
       { breakpoint: 1024, settings: { variableWidth: true } },
       { breakpoint: 600, settings: { variableWidth: true } },

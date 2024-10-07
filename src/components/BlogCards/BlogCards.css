@@ -65,7 +65,7 @@
   }
   
   .underline {
-    content: "";
+   
     display: block;
     width: 50px;
     height: 2px;

@@ -43,6 +43,12 @@ const products = [
     imageUrl: 'https://res.cloudinary.com/peloton-cycle/image/fetch/dpr_2.0,f_auto,q_auto:good,w_120/https://images.ctfassets.net/7vk8puwnesgc/66sPzRQnIfRfj0j6bbPklm/d7d566b1c46998637408af7d2e37698e/AppBelly.png',
     href: '/app',
   },
+  {
+    id: 7,
+    title: 'App',
+    imageUrl: 'https://res.cloudinary.com/peloton-cycle/image/fetch/dpr_2.0,f_auto,q_auto:good,w_120/https://images.ctfassets.net/7vk8puwnesgc/66sPzRQnIfRfj0j6bbPklm/d7d566b1c46998637408af7d2e37698e/AppBelly.png',
+    href: '/app',
+  },
 ];
 
 const ProductCards = () => {

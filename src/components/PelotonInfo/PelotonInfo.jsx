@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/PelotonInfo.css'; 
+import './PelotonInfo.css'; 
 
 const PelotonInfo = () => {
   return (

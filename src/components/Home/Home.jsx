@@ -1,14 +1,14 @@
 import React from 'react';
-import Navbar from './NavBar';
-import ProductCards from './ProductCards';
-import ImageSlider from './ImageSlider';
-import ProductLayout from './ProductLayout';
-import GiftCards from './GiftCards';
-import BlogCards from './BlogCards';
-import PromoComponent from './PromoComponent';
-import PelotonInfo from './PelotonInfo';
-import Footer from './Footer';
-import  '../styles/Home.css';
+import Navbar from '../NavBar/NavBar';
+import ProductCards from '../ProductCards';
+import ImageSlider from '../Slider/ImageSlider';
+import ProductLayout from '../ProductLayout/ProductLayout';
+import GiftCards from '../GiftCards/GiftCards';
+import BlogCards from '../BlogCards/BlogCards';
+import PromoComponent from '../PromoComponent/PromoComponent';
+import PelotonInfo from '../PelotonInfo/PelotonInfo';
+import Footer from '../Footer/Footer';
+import  './Home.css';
 const Home = () => {
   return (
     <div className="relative h-screen">
